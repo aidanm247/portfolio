@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dunk Videos - Aidan Mess</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .slideshow-container {
+      position: relative;
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #2a2a2a;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .slide {
+      display: none;
+      position: relative;
+    }
+
+    .slide.active {
+      display: block;
+    }
+
+    .slide video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .slide-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.8));
+      color: white;
+      padding: 2rem 1.5rem 1rem;
+      font-size: 1rem;
+    }
+
+    .nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(100, 181, 246, 0.8);
+      color: white;
+      border: none;
+      padding: 1rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .nav-button:hover {
+      background-color: rgba(100, 181, 246, 1);
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    .prev {
+      left: 1rem;
+    }
+
+    .next {
+      right: 1rem;
+    }
+
+    .slide-counter {
+      text-align: center;
+      margin: 1rem 0;
+      color: #b0b0b0;
+      font-size: 0.9rem;
+    }
+
+    .thumbnail-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    .thumbnail {
+      width: 60px;
+      height: 40px;
+      background-color: #3a3a3a;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #64b5f6;
+      font-size: 0.8rem;
+    }
+
+    .thumbnail.active {
+      border-color: #64b5f6;
+    }
+
+    .thumbnail:hover {
+      border-color: #90caf9;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Enjoy</h1>
+
+  <div class="slideshow-container">
+    <div class="slide active">
+      <video controls>
+        <source src="assets/videos/dunk_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="slide">
+      <video controls>
+        <source src="assets/videos/dunk_02.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="slide">
+      <video controls>
+        <source src="assets/videos/dunk_03.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <button class="nav-button prev" onclick="changeSlide(-1)">❮</button>
+    <button class="nav-button next" onclick="changeSlide(1)">❯</button>
+  </div>
+
+  <div class="slide-counter">
+    <span id="current-slide">1</span> / <span id="total-slides">5</span>
+  </div>
+
+
+
+  <a href="index.html" class="back-link">← Back to Home</a>
+
+  <script>
+    let slideIndex = 1;
+    const totalSlides = 5;
+
+    function changeSlide(n) {
+      showSlide(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlide(slideIndex = n);
+    }
+
+    function showSlide(n) {
+      const slides = document.querySelectorAll('.slide');
+      const thumbnails = document.querySelectorAll('.thumbnail');
+      
+      if (n > totalSlides) { slideIndex = 1; }
+      if (n < 1) { slideIndex = totalSlides; }
+      
+      // Hide all slides
+      slides.forEach(slide => slide.classList.remove('active'));
+      
+      // Remove active class from all thumbnails
+      thumbnails.forEach(thumb => thumb.classList.remove('active'));
+      
+      // Show current slide
+      slides[slideIndex - 1].classList.add('active');
+      
+      // Highlight current thumbnail
+      thumbnails[slideIndex - 1].classList.add('active');
+      
+      // Update counter
+      document.getElementById('current-slide').textContent = slideIndex;
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowLeft') changeSlide(-1);
+      if (e.key === 'ArrowRight') changeSlide(1);
+    });
+  </script>
+</body>
+</html>
