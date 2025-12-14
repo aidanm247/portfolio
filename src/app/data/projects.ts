@@ -22,12 +22,12 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "Exploring the relationship between Oura Ring metrics and chronic tendinopathy pain levels and on-court athletic performance in a college basketball player",
-    description: "This case study(of me) aims to provide insights into how wearable technology can be utilized for injury prevention and performance optimization in sports. I am interested in the neurological aspect of chronic pain, particularly tendinopathy pain, where imaging shows no damage..",
-    image: "/images/sleep.jpg",
-    year: "Ongoing",
+    description: "This case study(of me) aims to provide insights into how wearable technology can be utilized for injury prevention and performance optimization in sports.",
     tags: ["Wearables", "Physiology", "Data Analysis"],
-    externalUrl: "https://ourasleepananalytics.streamlit.app/"
-  },
+    externalUrl: "https://ourasleepananalytics.streamlit.app/",
+    image: "",
+    year: ""
+  }, 
   // {
   //   id: 3,
   //   title: "Lightboard for Concussion Baselines and Return to Play Assessments",
