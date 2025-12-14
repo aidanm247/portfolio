@@ -65,7 +65,7 @@ export default function Home() {
                   
                 </h1>
                 <p className="text-lg md:text-xl text-gray-700 mb-6">
-                Welcome, my name is <span className="font-bold">Aidan Mess</span>, I'm a senior at Gettysburg College majoring in Computer Science(BS) with and also taking focus of classes in Biology, Anatomy, and Physiology. I am an aspiring biomedical engineer interested in doing research into
+                Welcome, my name is <span className="font-bold">Aidan Mess</span>, I'm a senior at Gettysburg College majoring in Computer Science(B.S) with and also taking focus of classes in Biology, Anatomy, and Physiology. I am an aspiring biomedical engineer interested in doing research into
                 biomechanics, physical therapy/rehabilitation, and building prosthetic devices. <br></br><br></br>
 
                 Much of my interest in medicine comes from sports and my extensive injury history, which inspired me to want to pursue a career in medicine. 

@@ -39,7 +39,7 @@ export const projects: Project[] = [
   { 
     id: 4,
     title: "Camera-Based PPG Signal Analysis Pipeline",
-    description: "At Quellios, I worked with engineers to develop an end-to-end physiological sensing system using the iPhone camera as a reflectance PPG sensor. This involved writing proprietary signal processing algorithms to extract cardiovascular metrics from fingertip video, then building an internal R&D dashboard for the team to visualize data, test algorithm variants, and accelerate iteration cycles. The challenge was balancing signal quality with user experience. Converting noisy optical data into meaningful insights while keeping the interface intuitive for non-technical stakeholders and pontential investors.",
+    description: "At Quellios, I worked with engineers to develop an end-to-end physiological sensing system using the iPhone camera as a reflectance PPG sensor. This involved writing proprietary signal processing algorithms to extract cardiovascular metrics from fingertip video, then building an internal R&D dashboard for the team to visualize data, test algorithm variants, and accelerate iteration cycles. The challenge was balancing signal quality with user experience. Converting noisy optical data into meaningful insights while keeping the interface intuitive for non-technical stakeholders and potential investors.",
     image: "/images/fingerppg.jpg",
     year: "Spring-Summer 2025",
     tags: ["Signal Processing", "Health Tech", "Data Analysis", "iOS Development", "R&D"]
@@ -55,7 +55,7 @@ export const projects: Project[] = [
   {
     id: 5,
     title: "Research - Effectiveness of AI based Nutrition Assistance",
-    description: "Testing the feasibility of using computer visions to detects ingredients and inflammation(using the Dietary Inflammation Index).",
+    description: "Testing the feasibility of using computer vision to detects ingredients and inflammation(using the Dietary Inflammation Index).",
     image: "/images/aifoods.jpg",
     year: "Summer 2025", 
     tags: ["AI", "Nutrition Science", "Computer Vision", "Research"]
