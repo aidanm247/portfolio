@@ -11,7 +11,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Digital Technology Summer Fellowship -\"Smart\" Basketball Shooting Shirt",
+    title: "Wearable Technology for Biomechanical Feedback in Basketball Shooting",
     description: "During the summer of 2024, I was selected to participate in the Gettysburg College Innovation and Creativity Lab's Digital Technology Summer Fellowship, where I pitched an idea for a basketball shooting feedback shirt and worked on developing it. I had eight weeks with the school's funding to develop and present my prototype to the College's board of directors, who agreed to fund my project. My wearable prototype integrates sensors into the fabric to provide real-time feedback on shooting form, biomechanics, and technique.",
     image: "/images/formshoot.gif",
     year: "Summer 2024",

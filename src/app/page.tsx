@@ -68,13 +68,12 @@ export default function Home() {
                 Welcome, my name is <span className="font-bold">Aidan Mess</span>, I'm a senior at Gettysburg College majoring in Computer Science(BS) with and also taking focus of classes in Biology, Anatomy, and Physiology. I am an aspiring biomedical engineer interested in doing research into
                 biomechanics, physical therapy/rehabilitation, and building prosthetic devices. <br></br><br></br>
 
-                I am currently a senior captain on the Men's Basketball Team, leading the Gettysburg Men's Basketball Player-Alumni Network, and a multiple time Centennial Conference Academic Honor Roll and CSC Academic All-District Athlete.
                 Much of my interest in medicine comes from sports and my extensive injury history, which inspired me to want to pursue a career in medicine. 
                 I hope to combine my passion for technology and medicine to make an impact in people's lives.<br></br><br></br>
 
                 I am currently working on product, AI capability, and biomedical R&D at Quellios, a health tech startup focused on helping people monitor and reduce
                 inflammation. I have gotten experience with reflectance Photoplethysmography  (rPPG) analysis, getting
-                to work and conduct research in a professional setting, and help build a startup with leaders in the field such as Dr. Steven LeBeouf, Dr. Mike Aumer, and Mark Felice, who helped shape the modern field of wearable health
+                to work and conduct research in a professional setting, and help build a startup with leaders in the field who helped shape the modern field of wearable health
                 technology. I'm particularly interested in building wearable devices for health and performance and biomedical engineering in general. <br></br> <br></br> Below are some of my recent projects/professional work:
               </p>
               </motion.div>
