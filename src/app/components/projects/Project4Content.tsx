@@ -213,7 +213,7 @@ export default function Project4Content() {
                 Your browser does not support the video tag.
               </video>
               <figcaption className="text-gray-600 text-sm text-center mt-2">
-                Figure 3: Demonstration of a clean PPG signal capture.
+                Figure 3: Demonstration of motion artifact impact on signal quality.
               </figcaption>
             </div>
 
@@ -224,7 +224,7 @@ export default function Project4Content() {
                 Your browser does not support the video tag.
               </video>
               <figcaption className="text-gray-600 text-sm text-center mt-2">
-                Figure 4: Demonstration of motion artifact impact on signal quality.
+                Figure 4: Demonstration of a clean PPG signal capture.
               </figcaption>
             </div>
 
