@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description: "This case study(of me) aims to provide insights into how wearable technology can be utilized for injury prevention and performance optimization in sports.",
     tags: ["Wearables", "Physiology", "Data Analysis"],
     externalUrl: "https://ourasleepananalytics.streamlit.app/",
-    image: "",
+    image: "/images/sleep1.png",
     year: ""
   }, 
   // {
