@@ -9,6 +9,14 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  { 
+    id: 4,
+    title: "Camera-Based PPG Signal Analysis Pipeline",
+    description: "At Quellios, I worked with engineers to develop an end-to-end physiological sensing system using the iPhone camera as a reflectance PPG sensor. This involved writing proprietary signal processing algorithms to extract cardiovascular metrics from fingertip video, then building an internal R&D dashboard for the team to visualize data, test algorithm variants, and accelerate iteration cycles. The challenge was balancing signal quality with user experience. Converting noisy optical data into meaningful insights while keeping the interface intuitive for non-technical stakeholders and potential investors.",
+    image: "/images/fingerppg.jpg",
+    year: "Spring-Summer 2025",
+    tags: ["Signal Processing", "Health Tech", "Data Analysis", "iOS Development", "R&D"]
+  },
   {
     id: 1,
     title: "Wearable Technology for Biomechanical Feedback in Basketball Shooting",
@@ -17,7 +25,6 @@ export const projects: Project[] = [
     year: "Summer 2024",
     tags: ["Wearables", "Biomechanics", "Sports Performance", "IoT", "Data Analysis"],
     externalUrl: "https://docs.google.com/document/d/1Mes5UjXAVdcX_FJkjoIadtf3mtbdFIes/edit?usp=sharing&ouid=117800781232636956552&rtpof=true&sd=true"
-
   },
   {
     id: 2,
@@ -35,22 +42,6 @@ export const projects: Project[] = [
   //   image: "/images/concussion-board.jpg",
   //   year: "Oct 2025",
   //   tags: ["Hardware", "Machine Learning", "Medical Device", "Sensors", "Physical Therapy", "Rehabilitation"]
-  // },
-  { 
-    id: 4,
-    title: "Camera-Based PPG Signal Analysis Pipeline",
-    description: "At Quellios, I worked with engineers to develop an end-to-end physiological sensing system using the iPhone camera as a reflectance PPG sensor. This involved writing proprietary signal processing algorithms to extract cardiovascular metrics from fingertip video, then building an internal R&D dashboard for the team to visualize data, test algorithm variants, and accelerate iteration cycles. The challenge was balancing signal quality with user experience. Converting noisy optical data into meaningful insights while keeping the interface intuitive for non-technical stakeholders and potential investors.",
-    image: "/images/fingerppg.jpg",
-    year: "Spring-Summer 2025",
-    tags: ["Signal Processing", "Health Tech", "Data Analysis", "iOS Development", "R&D"]
-  },
-  // {
-  //   id: 5,
-  //   title: "iOS app meal recogition and tracking, and UI design",
-  //   description: "Building out the AI meal recognition using the OpenAI API, and then designing the UI in Figma and implementing my design which was adopted in the startup's first launch.",
-  //   image: "/images/figma_design3.jpg",
-  //   year: "Spring 2025",
-  //   tags: ["AI", "Health Tech", "iOS development"]
   // },
   {
     id: 5,
