@@ -26,15 +26,15 @@ export const projects: Project[] = [
     tags: ["Wearables", "Biomechanics", "Sports Performance", "IoT", "Data Analysis"],
     externalUrl: "https://docs.google.com/document/d/1Mes5UjXAVdcX_FJkjoIadtf3mtbdFIes/edit?usp=sharing&ouid=117800781232636956552&rtpof=true&sd=true"
   },
-  {
-    id: 2,
-    title: "Exploring the relationship between Oura Ring metrics and chronic tendinopathy pain levels and on-court athletic performance in a college basketball player",
-    description: "This case study(of me) aims to provide insights into how wearable technology can be utilized for injury prevention and performance optimization in sports.",
-    tags: ["Wearables", "Physiology", "Data Analysis"],
-    externalUrl: "https://ourasleepananalytics.streamlit.app/",
-    image: "/images/sleep1.png",
-    year: ""
-  }, 
+  // {
+  //   id: 2,
+  //   title: "Exploring the relationship between Oura Ring metrics and chronic tendinopathy pain levels and on-court athletic performance in a college basketball player",
+  //   description: "This case study(of me) aims to provide insights into how wearable technology can be utilized for injury prevention and performance optimization in sports.",
+  //   tags: ["Wearables", "Physiology", "Data Analysis"],
+  //   externalUrl: "https://ourasleepananalytics.streamlit.app/",
+  //   image: "/images/sleep1.png",
+  //   year: ""
+  // }, 
   // {
   //   id: 3,
   //   title: "Lightboard for Concussion Baselines and Return to Play Assessments",
