@@ -9,13 +9,47 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  { 
+  {
+    id: 6,
+    title: "Computer Graphics Portfolio",
+    description: "I built a C++ ray tracer in six stages, beginning with Phong-illuminated spheres and shadows, then extending it to include reflections, textures, bump mapping, mesh rendering, and advanced lighting. I concluded by adding planes and animation to create more complex visual environments. I then reproduced and extended these scenes in OpenGL, where I implemented a custom software-managed graphics pipeline and designed a hierarchical carousel using composable scene-graph transformations. To further deepen my understanding of GPU programming, I developed a GLSL special-effects framework and implemented mesh-smoothing algorithms using Shader Storage Buffer Objects (SSBOs) in the vertex shader.",
+    image: "/images/raytracer.png",
+    year: "Winter 2024/25",
+    tags: ["C++", "OpenGL", "Linear Algebra"],
+    externalUrl: "https://www.cs.gettysburg.edu/~messai01/cs373/"
+  },
+  {
+    id: 7,
+    title: "Building MatchDB: A career matchmaking database for college athletes",
+    description: "I built out MatchDB - a career development service for the Gettysburg Men's Basketball Team that matches my teammates with around ~100 Gettysburg Basketball Alumni that agreed to help, based on shared career interests.",
+    image: "/images/matchdbthumbnail.jpg",
+    year: "Summer 2024 - Summer 2025",
+    tags: ["AI", "Health Tech", "iOS development"],
+    externalUrl: "https://youtu.be/Zisv9xzG3WE"
+  },
+  {
+    id: 9,
+    title: "Card Game AI and Game Balancing for St. Petersburg",
+    description: "I built out an AI player for the niche card game St. Petersburg. This player uses Monte Carlo Tree Search Algorithm with Chance Sampling, code adapted from Google Deepmind. We also used a random forest evaluator for analyzing game states. My player competed in a class tournament and placed 1st out of ~20 participants.",
+    image: "/images/mcts.png",
+    year: "Fall 2025",
+    tags: ["AI", "Machine Learning", "Java"]
+  },
+  {
     id: 4,
     title: "Camera-Based PPG Signal Analysis Pipeline",
     description: "At Quellios, I worked with engineers to develop an end-to-end physiological sensing system using the iPhone camera as a reflectance PPG sensor. This involved writing proprietary signal processing algorithms to extract cardiovascular metrics from fingertip video, then building an internal R&D dashboard for the team to visualize data, test algorithm variants, and accelerate iteration cycles. The challenge was balancing signal quality with user experience. Converting noisy optical data into meaningful insights while keeping the interface intuitive for non-technical stakeholders and potential investors.",
     image: "/images/fingerppg.jpg",
     year: "Spring-Summer 2025",
     tags: ["Signal Processing", "Health Tech", "Data Analysis", "iOS Development", "R&D"]
+  },
+  {
+    id: 5,
+    title: "Research - Effectiveness of AI based Nutrition Assistance",
+    description: "Testing the feasibility of using computer vision to detects ingredients and inflammation(using the Dietary Inflammation Index).",
+    image: "/images/aifoods.jpg",
+    year: "Summer 2025", 
+    tags: ["AI", "Nutrition Science", "Computer Vision", "Research"]
   },
   {
     id: 1,
@@ -43,39 +77,6 @@ export const projects: Project[] = [
   //   year: "Oct 2025",
   //   tags: ["Hardware", "Machine Learning", "Medical Device", "Sensors", "Physical Therapy", "Rehabilitation"]
   // },
-  {
-    id: 5,
-    title: "Research - Effectiveness of AI based Nutrition Assistance",
-    description: "Testing the feasibility of using computer vision to detects ingredients and inflammation(using the Dietary Inflammation Index).",
-    image: "/images/aifoods.jpg",
-    year: "Summer 2025", 
-    tags: ["AI", "Nutrition Science", "Computer Vision", "Research"]
-  },
-  {
-    id: 6,
-    title: "Computer Graphics Portfolio",
-    description: "I built a C++ ray tracer in six stages, beginning with Phong-illuminated spheres and shadows, then extending it to include reflections, textures, bump mapping, mesh rendering, and advanced lighting. I concluded by adding planes and animation to create more complex visual environments. I then reproduced and extended these scenes in OpenGL, where I implemented a custom software-managed graphics pipeline and designed a hierarchical carousel using composable scene-graph transformations. To further deepen my understanding of GPU programming, I developed a GLSL special-effects framework and implemented mesh-smoothing algorithms using Shader Storage Buffer Objects (SSBOs) in the vertex shader.",
-    image: "/images/raytracer.png",
-    year: "Winter 2024/25",
-    tags: ["C++", "OpenGL", "Linear Algebra"],
-    externalUrl: "https://www.cs.gettysburg.edu/~messai01/cs373/"
-  },
-  {
-    id: 7,
-    title: "Building MatchDB: A career matchmaking database for college athletes",
-    description: "I built out MatchDB - a career development service for the Gettysburg Men's Basketball Team that matches my teammates with around ~100 Gettysburg Basketball Alumni that agreed to help, based on shared career interests.",
-    image: "/images/matchdbthumbnail.jpg",
-    year: "Summer 2024 - Summer 2025",
-    tags: ["AI", "Health Tech", "iOS development"],
-    externalUrl: "https://youtu.be/Zisv9xzG3WE"
-  },
-  {
-    id: 9,
-    title: "Card Game AI and Game Balancing for St. Petersburg",
-    description: "I built out an AI player for the niche card game St. Petersburg. This player uses Monte Carlo Tree Search Algorithm with Chance Sampling, code adapted from Google Deepmind. We also used a random forest evaluator for analyzing game states. My player competed in a class tournament and placed 1st out of ~20 participants.",
-    image: "/images/mcts.png",
-    year: "Fall 2025",
-    tags: ["AI", "Machine Learning", "Java"]
-  }
+  
 ]; 
  
